@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   <title> Đạt </title>
+   <style>
+    @keyframes spin {
+     from { transform: rotate(45deg); }
+     to { transform: rotate(135deg); }
+    }
+	
+    img {
+     max-width: 20%;
+     height: auto;
+	 animation: spin 5s linear infinite;
+    }
+	
+	.box {
+     background-color: gray;
+     padding: 100px 40px;
+     border-radius: 10px;
+     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+     text-align: center;
+	}
+	
+	body {
+     text-align: center;
+	 color: #ffffff;
+    }
+	
+    h1 {
+     background-color: #37afdb;
+     color: #ff0000;
+     padding: 10px 30px;
+     border-radius: 5px;
+     width: 200px;
+     margin: 0 auto; 
+	}
+	
+	button {
+	 border: none;
+	 background-color: green;
+	 color: white;
+	 padding: 10px 40px;
+	 cursor: pointer;
+	 transition: background 1s;
+	 border-radius: 8px;
+	}
+	
+	button:hover {
+     background-color: red;
+	}
+
+    </style>
+</head>
+<body>
+    <img src="https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/014220c3a94ca196ca81fb9e7cd1493b~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=d339b13b&x-expires=1773828000&x-signature=mPiVv8hiHpcXrCrrguiQ44Wueyw%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2">
+    <div class="box">
+        <h1>Chào Giang! 👋</h1>
+        <p>Bấm cái nút bên dưới đi 💁‍♂️👇</p>
+        <button onclick="window.location.href='001.html'"> tiếp theo </button>
+    </div>
+
+</body>
+</html>
